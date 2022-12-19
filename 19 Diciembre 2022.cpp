@@ -1,17 +1,20 @@
 //Mi primer programa en C++ KEKW
+//Condicional anidado
 #include<iostream>
 using namespace std;
 int main(){
-	//CONDICIONAL
-	int edad;
-	cout<<"Introduce tu edad: ";
-	cin>> edad;
-	if(edad>=18){
-		cout<<"Eres mayor de edad";
+	//Definimos tres variables
+	int n1,n2,n3;
+	cout<<"Introduce tres números enteros: ";
+	cin>> n1 >> n2 >> n3;
+	if(n1>n2){
+		if(n1>n3){
+			cout<<"El mayor es "<<n1;
+	}
 	}
 	else{
-		cout<<"Eres menor de edad";
-	}	
+		cout<<"El mayor es "<<n3;
+	}
 	return 0;
 	
 	
