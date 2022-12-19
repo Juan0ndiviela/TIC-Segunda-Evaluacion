@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	//Definimos tres variables
+	//CONDICIONAL
 	int edad;
 	cout<<"Introduce tu edad: ";
 	cin>> edad;
