@@ -40,11 +40,11 @@ int main(){
             printf("\nTrasladada la letra %c",*(*(reyes+cont)+cont1));
         }
     }
-    //Comprobación
+    //ComprobaciÃ³n
     cout<<endl;
-    cout<<"***********************************"<<endl;
-    cout<<"*        The magic Kings           *"<<endl;
-    cout<<"***********************************"<<endl;
+    cout<<"************************************"<<endl;
+    cout<<"*        The Three Wise Men        *"<<endl;
+    cout<<"************************************"<<endl;
     for(cont=1;cont<4;cont++){
         printf("%s\n",reyes[cont]);    
     }
