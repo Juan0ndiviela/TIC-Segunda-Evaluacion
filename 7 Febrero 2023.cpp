@@ -3,15 +3,16 @@
 #include<stdlib.h>
 #include<time.h>
 //Este programa genera una matriz 3x3 rellena de 
-//números enteros entre el 0 y el 9 con repetición
+//nÃºmeros enteros entre el 0 y el 9 con repeticiÃ³n
 using namespace std;
 
 int main(){
 	long semillita;
+	int cont;
 	semillita=time(0);
 	srand(semillita);
-	cout<<"Un numero al azar: "<<rand()%6;
+	for(cont=0;cont<10;cont++){
+		cout<<"Un numero al azar: "<<rand()%6+1<<endl;
+	}
 	return 0;
 }
-
-
